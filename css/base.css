@@ -1,0 +1,113 @@
+﻿@charset "UTF-8";
+html{
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+body{
+
+}
+p{
+    color:#535a61;
+}
+.img_max{
+    width: 100%;
+    height: auto;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.m_tweet{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.twitter_cnt{
+    width: 40vw;
+    height: 90vh;
+    border: 0.1px #999 solid;
+    margin: 0 auto;
+}
+.head_cnt{
+    width: 100%;
+    height: 5rem;
+    background-color: #1DA1F2;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-brands.fa-twitter{
+    color: white;
+    font-size: 2rem;
+}
+.tweet_cnt{
+    border-bottom: 0.1px #999 solid;
+    /* width: 100%; */
+    padding: 0.5rem 0.5rem;
+}
+.user_cnt{
+    display: flex;
+    margin: 0.5rem 0 0 0.5rem;
+    /* flex-direction: column; */
+    /* justify-content: center;*/
+}
+.tweet_flex{
+    display: flex;
+}
+
+.tweet_h{
+    display: flex;
+    margin-bottom: 0.25rem;
+}
+.user_name{
+    font-weight: bold;
+}
+.user_id{
+    color: #999;
+    font-size: 0.92rem;
+    margin-left: 0.3rem;
+}
+
+.h_img_icon{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: blue;
+    background-image: url(../img/kizarutter.png);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.tweet_m{
+    /*padding-Top: 0.3rem; */
+    /* width: 95%; */
+    height: 100%;
+    overflow-wrap: anywhere;
+    margin-bottom: 0.5rem;
+    margin-left: 2.8rem;
+}
+.tweet_f{
+    width: 100%;
+
+}
+.icon_cnt{
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    color: lightblue;
+}
+.fa-regular.fa-comment{
+}
+.fa-solid.fa-retweet{
+}
+.fa-solid.fa-star{
+}
+.fa-solid.fa-share-from-square{
+}
